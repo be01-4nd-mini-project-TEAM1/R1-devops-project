@@ -1,4 +1,7 @@
 # devops-mini-project
+![devops6](https://github.com/be01-4nd-mini-project-TEAM1/R1-devops-project/assets/148875683/6cf88504-1818-445f-9744-309eb3061bad)
+
+
 [🔗 배포 URL]
 ## 개요
 - 📝 ++
