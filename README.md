@@ -32,7 +32,7 @@ URL : 🔗
 - 전체 개발 기간 : 2024-02-28 ~ 2024-02-29
 ### 작업 관리
 - 칸반보드 
-- 🔗[GitHub Projects](https:)와 🔗[Issues](https://)
+- 🔗[GitHub Projects](https://github.com/orgs/be01-4nd-mini-project-TEAM1/projects/1)와 🔗[Issues](https://)
 + image
 
 ## <span id="pages">4. </span>
