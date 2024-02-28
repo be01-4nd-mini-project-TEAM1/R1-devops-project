@@ -39,10 +39,11 @@ URL : 🔗
 ## <span id="pages">4. </span>
 
 ## <span id="issues">5. 개발하며 겪은 이슈</span>
-### 1) 
+### 1) WSL 환경에서 nGrinder Controller에 외부 PC에서 agent 접속 이슈
+   - https://github.com/be01-4nd-mini-project-TEAM1/R3-nGrinder/issues/1
+   <br>
+
 #### 내용
 - 
 #### 결론
 - 
-
-
