@@ -44,6 +44,8 @@ URL : 🔗
    <br>
 
 #### 내용
-- 
+- 포트포워딩한 nGrinder Controller에 외부 PC의 agent가 접속되지 않았다.
 #### 결론
-- 
+- nGrinder agent는 기본적으로 16001 포트의 Controller에 접속한다.
+- 외부 PC에서 Controller 페이지에 접속하기 위한 8080 포트와 agent가 접속하기 위한 16001 포트 2개를 포트포워딩 해준다.
+- 외부 PC가 포트에 접속할 수 있도록 방화벽 설정이 추가적으로 필요하다.
