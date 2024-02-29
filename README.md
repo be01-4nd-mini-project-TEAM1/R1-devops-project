@@ -77,7 +77,9 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 #### 내용
 - nginx-proxy cache 설정 적용 후 nGrinder 테스트에서 에러 발생
 #### 결론
-- proxy server에 오류가 발생할 때마다 agent server 포트가 지속적으로 변경되어 controller의 포트와 일치하지 않는 이슈
+- cache가 저장되는 경로를 잘못 설정해서 테스트가 불가능했음
+- default.conf 파일에서 올바른 경로를 설정
 - nGrinder(agent, controller server) 및 proxy server 모두 재부팅 후 해결됨
+
 
 <br>
