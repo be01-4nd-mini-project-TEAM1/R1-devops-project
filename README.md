@@ -75,9 +75,9 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
    <br>
 
 #### 내용
-- nginx-proxy nGrinder cache 설정 적용 후 테스트에서 에러 발생
+- nginx-proxy cache 설정 적용 후 nGrinder 테스트에서 에러 발생
 #### 결론
-- proxy server 오류 발생 시 agent server 포트가 변경되어 controller의 포트와 일치하지 않는 이슈 지속적으로 발견
+- proxy server에 오류가 발생할 때마다 agent server 포트가 지속적으로 변경되어 controller의 포트와 일치하지 않는 이슈
 - nGrinder(agent, controller server) 및 proxy server 모두 재부팅 후 해결됨
 
 <br>
