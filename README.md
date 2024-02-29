@@ -49,3 +49,45 @@ URL : 🔗
 - nGrinder agent는 기본적으로 16001 포트의 Controller에 접속한다.
 - 외부 PC에서 Controller 페이지에 접속하기 위한 8080 포트와 agent가 접속하기 위한 16001 포트 2개를 포트포워딩 해준다.
 - 외부 PC가 포트에 접속할 수 있도록 방화벽 설정이 추가적으로 필요하다.
+<br>
+
+### 2) nginx test 오류
+   - https://github.com/beyond-sw-camp/beyond-sw-camp-be01_4nd_mini-project/issues/14
+   <br>
+
+#### 내용
+- JAVA 17 버전으로 nGrinder 를 시도했을 때 Agent 실행과정에서 아래와 같은 에러가 발생
+```
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+```
+#### 결론
+- JAVA 17 버전이 호환되지 않아 발생하는 에러
+
+- 해결 방법 (택일)
+   - JAVA 11로 버전 바꾸기
+   - nGrinder-3.5.6으로 재설치 후 실행
+
+- 11로 버전 바꾼 뒤 재부팅
+<br>
+
+### 3) nginx-proxy cache 적용 시 에러 발생
+   - https://github.com/be01-4nd-mini-project-TEAM1/R4-nginx-proxy/issues/4
+   <br>
+
+#### 내용
+- nginx-proxy nGrinder cache 설정 적용 후 테스트에서 에러 발생
+#### 결론
+- proxy server 오류 발생 시 agent server 포트가 변경되어 controller의 포트와 일치하지 않는 이슈 지속적으로 발견
+- nGrinder(agent, controller server) 및 proxy server 모두 재부팅 후 해결됨
+
+<br>
+
+### 4) nginx-proxy cache 적용 시 에러 발생
+   - https://github.com/be01-4nd-mini-project-TEAM1/R4-nginx-proxy/issues/4
+   <br>
+
+#### 내용
+- nginx-proxy nGrinder cache 설정 적용 후 테스트에서 에러 발생
+#### 결론
+- proxy server 오류 발생 시 agent server 포트가 변경되어 controller의 포트와 일치하지 않는 이슈 지속적으로 발견
+- nGrinder(agent, controller server) 및 proxy server 모두 재부팅 후 해결됨
