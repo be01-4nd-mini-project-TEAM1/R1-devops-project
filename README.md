@@ -61,7 +61,7 @@ URL : 🔗
 Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
 ```
 #### 결론
-- JAVA 17 버전이 호환되지 않아 발생하는 에러
+- JAVA 17 버전과 nGrinder-3.5.9 버전이 호환되지 않아 발생하는 에러
 
 - 해결 방법 (택일)
    - JAVA 11로 버전 바꾸기
